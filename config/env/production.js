@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+	//db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost/ophthalmocare',
 	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost/ophthalmocare',
     fileHandler:(process.env.CLOUDINARY_URL)?'cloudinary':'local',
     filesTemp:'files/temp/',
