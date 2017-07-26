@@ -2,7 +2,7 @@
 
 module.exports = {
 	//db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost/ophthalmocare',
-	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://chuckwilliams10:ebonyblu1@ds125623.mlab.com:25623/heroku_dq3cww76',
+	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://newtestuser:ebonyblu1@ds125623.mlab.com:25623/heroku_dq3cww76',
     fileHandler:(process.env.CLOUDINARY_URL)?'cloudinary':'local',
     filesTemp:'files/temp/',
     filesUpload:'files/upload/',
