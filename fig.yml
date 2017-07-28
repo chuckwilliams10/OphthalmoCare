@@ -3,7 +3,7 @@ web:
   links:
    - db
   ports:
-   - "3000:3000"
+   - "0000:27017"
   environment: 
    NODE_ENV: development
 db:
