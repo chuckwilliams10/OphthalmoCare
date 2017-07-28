@@ -26,7 +26,8 @@ ENV NODE_ENV development
 
 VOLUME /data/db
 
-EXPOSE 3000 35729
+#EXPOSE 3000 35729
+EXPOSE 0000 27017
 
 CMD ["mongod", "grunt"]
 #RUN cd /home/vagrant/GitHub/ophthalmocare
