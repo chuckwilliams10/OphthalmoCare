@@ -9,4 +9,4 @@ web:
 db:
   image: mongo
   ports: 
-   - "0000:27017"
+   - "00000:27017"
